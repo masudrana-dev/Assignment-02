@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 
 /* header part css  */
@@ -14,9 +15,9 @@ body{
          
         }
         
-header {
-    padding: 70px;
-  }
+        header {
+            padding: 50px 200px 50px 280px;
+        }
   .header-photo {
     width: 100%;
   }
@@ -30,9 +31,9 @@ header {
     font-size: 18px;
   }
   .header-title {
-    font-size: 25px;
-    padding-bottom: 100px;
-  }
+	font-size: 25px;
+	padding-bottom: 50px;
+}
   .header-content {
     margin-right: 0;
   }
@@ -58,3 +59,138 @@ header {
     margin-left: 10px;
   }
 /* header part css  */
+
+ /* popular collection css  */
+        
+.item-details h4 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .item-details ul {
+    display: flex;
+  }
+  
+  .item-details p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .item-details ul li {
+    list-style: none;
+  }
+  .item-details ul li i {
+    color: gold;
+  }
+ 
+.item-position {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 12px;
+  }
+  .item-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .item-wrap {
+    margin: 30px;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px 40px #aaa;
+    padding: 16px;
+  }
+  .main-title {
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.see-more {
+    text-decoration: none;
+    margin-left: 74%;
+    color: #E02C6D;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .see-more i {
+    margin-left: 10px;
+  }
+ /* popular collection css  */
+ /* activites css  */
+ .influencer-container {
+    padding: 50px 200px 50px 363px;
+    display: flex;
+  }
+  .influencer-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+  }
+  
+.subscription-con {
+    margin-left: 5%;
+  }
+  .subscription-con h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .subscription-con h2 span {
+    color: gold;
+  }
+  .subscription-con p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  .subscribe {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #E02C6D;
+    background: #E02C6D;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+ /* activites css  */
+ /* foooter  */
+ 
+footer {
+    color: #fff;
+    background: #0A0826;
+    text-align: center;
+    padding: 50px;
+  }
+  .footer-con h4 {
+    font-size: 30px;
+  }
+  .social-links ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+
+  }
+  .social-links ul li i {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+ /* foooter  */
+
+ /* responsive css  */
+   @media (max-width:575) {
+        .item-position{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .header{
+            display: flex;
+            flex-wrap: wrap;
+        }
+   }
+ /* responsive css  */
