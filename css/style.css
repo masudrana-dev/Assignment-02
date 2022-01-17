@@ -14,9 +14,9 @@ body{
             display: flex;
          
         }
-        
+    
         header {
-            padding: 50px 200px 50px 280px;
+            padding: 50px 450px 50px 388px;
         }
   .header-photo {
     width: 100%;
@@ -37,6 +37,9 @@ body{
   .header-content {
     margin-right: 0;
   }
+  .header-content {
+	margin-top: 70px;
+}
   
 .book {
     text-decoration: none;
@@ -49,6 +52,7 @@ body{
     display: inline-block;
     margin-top: 25px;
     transition: 0.3s;
+    border-radius: 5px;
   }
   .book:hover {
     border-radius: 50px;
@@ -58,7 +62,65 @@ body{
   .book i {
     margin-left: 10px;
   }
+  
+.menu-item {
+    display: flex;
+  }
+  .menu-item ul {
+    display: flex;
+    position: relative;
+    left: 46%;
+  }
+ 
+  .menu-item ul li {
+    list-style: none;
+  }
+  .menu-item ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    overflow: hidden;
+    overflow-wrap: wrap;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+  }
 /* header part css  */
+/* brand css  */
+
+.brand-container {
+	padding: 90px 0 20px;
+}
+  .brand-item ul {
+    display: flex;
+    position: relative;
+  }
+  .brand-item ul li {
+    list-style: none;
+    margin-left: 6%;
+  }
+  .brand-item ul::after {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(white , aliceblue);
+    content: "";
+  }
+  .brand-item {
+    position: relative;
+  }
+  .brand-item::after {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(white ,aliceblue);
+    content: " ";
+  }
+/* brand css  */
+/* brand css  */
 
  /* popular collection css  */
         
@@ -120,14 +182,14 @@ body{
  /* popular collection css  */
  /* activites css  */
  .influencer-container {
-    padding: 50px 200px 50px 363px;
+    padding: 50px 350px 50px 363px;
     display: flex;
   }
   .influencer-title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    padding-bottom: 50px;
+    padding-top: 20px;
   }
   
 .subscription-con {
@@ -146,15 +208,21 @@ body{
     font-weight: 400;
   }
   .subscribe {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #E02C6D;
-    background: #E02C6D;
-    color: #fff;
-    margin-top: 10px;
-    border-radius: 5px;
-  }
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #E02C6D;
+	background: #E02C6D;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.subscribe:hover {
+	border-radius: 50px;
+	background: transparent;
+	color: #E02C6D;
+}
  /* activites css  */
  /* foooter  */
  
