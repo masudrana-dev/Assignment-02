@@ -331,3 +331,58 @@ footer {
       }
      }
  /* responsive css  */
+ /* responsive css for tablet */
+ @media only screen and (min-width:688px) and (max-width:992px){
+  body {
+    overflow-x: hidden;
+  }
+  .header-photo img {
+    width: 100%;
+    position: relative;
+    left: -100px;
+  }
+  header {
+    padding: 50px 50px 50px 50px;
+  }
+  .header-content h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  .header-content p {
+    font-size: 16px;
+  }
+  .menu-item ul {
+    display: flex;
+    position: relative;
+    left: 40%;
+  }
+  .menu-item ul li a {
+    margin-left: 24px;
+  }
+  .brand-item ul li {
+    margin-left: 4%;
+  }
+  .main-title {
+    padding-bottom: 0;
+    font-size: 35px;
+  }
+  .item-position {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .influencer-title {
+    font-size: 35px;
+  }
+  .influencer-container {
+    padding: 50px 5px 50px 8px;
+  }
+  .subscription-con {
+    margin-left: 2%;
+  }
+  .subscription-con p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+ }
+ /* responsive css for tablet */
+
+ 
